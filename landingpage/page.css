@@ -1,0 +1,52 @@
+
+div{
+    
+    background-position: 100px;
+    background-size: cover;
+     
+    background-repeat: no-repeat;
+
+
+    background-image: url(image/water.jpg)
+}
+
+ header button{
+    float: right;
+    margin-right: 20px;
+    background-color: blue;
+    color: white;
+    
+    
+}
+header{
+    
+    text-align: left;
+    background-color: whitesmoke;
+    margin-left: 100px;
+}
+
+
+
+.leads{
+    
+     padding: 20px;
+     margin: 10px;
+     text-align: center;
+     font-size: 30px;
+     color:white;
+
+}
+.leads input{
+
+    padding: 10px;
+    font-size: 25px;
+    background-color:white;
+}
+.leads button{
+    margin: 10px;
+    padding: 13px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+}
+
