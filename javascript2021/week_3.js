@@ -65,5 +65,87 @@ let pets = ["cat", "dog" ,"fish" ,"rabbit" , "cow"];
 //  excercise 1
 
 let fruits = ["banana","apples" , "oranges","blueberries"];
-console.log(fruits.splice([1]));
-console.log(fruits);
+console.log(fruits.splice([0
+]));
+// console.log(fruits.sort());
+// console.log(fruits);
+console.log( fruits);
+console.log(5+"34");
+console.log(5-"4");
+console.log(5%10);
+console.log("java"+"script");
+console.log(" "+ " ");
+console.log(" "+ 0);
+
+console.log(true + true);
+
+console.log(true +false);
+
+console.log(false+ true);
+console.log(false-true);
+console.log(3-4);
+console.log("Bob" - "bill");
+
+let me = ["my" , "favorite" , "color" ,"is" , "blue"];
+ let result = "my" + " " + "favorite "  +  " color " + "is " +" blue";
+ console.log(result)
+
+ let name = "john";
+ let lastname = "smith";
+ let fullName = name  + lastname ;
+ console.log(fullName.slice());
+ console.log(name.slice(-2));
+ console.log(lastname.slice(-2));
+
+ let firstName = "jo" + "hn";
+ let = lastName = "sm" + "th";
+ console.log(firstName);
+ console.log(lastname);
+
+//  var calculator = prompt("Enter a number");
+//    var num1 = 6;
+
+//    var  num2 = 4;
+//    var sum = num1 +num2;
+//    alert(sum);
+
+// var sentences = prompt("user give full meaning of word");
+
+// var word = "i love the movie named Nemo";
+// var n = 
+//       (word.indexOf("nemo"));
+     
+     
+console.log(5>=1);
+console.log(0===1);
+console.log(4<=1);
+console.log(1!=1);
+console.log("A">"B")
+console.log("B"<"C")
+console.log("a">"A")
+console.log("b"<"A")
+console.log(true===false)
+console.log(true!=true)
+
+let a = 34;
+let b =21;
+a = 2;
+ let c = a+b;
+console.log(a+b);
+console.log(3+4+ "5");
+
+var string = parseInt("Entera string numbers");
+ var user1= 2;
+ var user2 = 3;
+ var sums =parseInt( 2, "3");
+ console.log(sums);
+ let fruit = ["banana" , "Apples" , "oranges" , "blueberries"];
+  console.log(fruit.shift())
+  console.log(fruit)
+  console.log(fruit.sort());
+  var juice = "kiwi";
+  console.log(fruit.push("kiwi"));
+  console.log(fruit);
+  console.log(fruit.replace())
+
+
