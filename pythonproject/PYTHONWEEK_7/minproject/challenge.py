@@ -29,18 +29,20 @@ for i in  string:
             if (i.isspace()):
                 count=count+1
             print('space',count)
-
-# my_sum = ([1,5,4,2])
-# sum = sum(my_sum)
-# print(sum)
-     
+    
 list = ([0,1,3,50])
 bG_N= max(list)
 print(bG_N)
 list_count= (['a','a','t','o'],'a')
-
 count = list_count[0].count('a')
-print("count of a",count)
+print('this is a count',count)
+duplicates = []
+
+
+for values in list_count:
+    if list_count[0].count(values)>1:
+        duplicates.append(values)
+        print(duplicates)
 
 def calculate_upp(str):
     s = {"upper_case":0 , "lower_case":0}
@@ -67,16 +69,49 @@ n = ([7,6,5,5,2,0])
 def arraySorted(n ):
 
     array = []
-   
+
     if (n == 1 or n == 0):
         return 1
     if (array[n - 1] < array[n - 2]):
         return 0
     return arraySorted(array, n - 1);
 print(n)
- 
+
 lst = [1,23,34]
 str = ["banaana" ,"orange" ,"apple"]
 one_list = lst+str
 print(one_list)
+
+# my_sum = ([1,5,4,2])
+# sum_1 = sum(my_sum)
+# print(sum_1)
+
+def ispalindrome(s):
+    rev = ''.join(reversed(s))
+    if(s==rev):
+        return True
+        return False
+s = 'john'
+ans = ispalindrome(s)
+if(ans):
+    print('yes')
+else:
+    print('no')
+
+weird= ([1,2,2,3,4,5])
+for x in weird:
+    if x%2 == 0:
+        print('even',x)
+
+arr = ['a','b', 'c']
+arr.insert(2, 'd')
+print(arr)
+
+num = 4
+num = int(input("Enter a number: "))
+factorial = 1
+for i in range(1,num + 1):
+    factorial = factorial*i
+print("The factorial of",num,"is",factorial)
+
 
