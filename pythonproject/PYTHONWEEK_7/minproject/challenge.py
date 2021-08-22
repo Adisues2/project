@@ -108,10 +108,34 @@ arr.insert(2, 'd')
 print(arr)
 
 num = 4
-num = int(input("Enter a number: "))
-factorial = 1
-for i in range(1,num + 1):
-    factorial = factorial*i
-print("The factorial of",num,"is",factorial)
+# num = int(input("Enter a number: "))
+# factorial = 1
+# for i in range(1,num + 1):
+#     factorial = factorial*i
+# print("The factorial of",num,"is",factorial)
+
+# dict_avg = {'a': 1,'b':2,'c':8,'d': 1}
+
+# values = dict_avg.values()
+# print(values)
+# length = (len(dict_avg))
+# print(length)
+# total = (sum(dict_avg.values()))
+# print(total)
+# res_lst = [ item*5 if not item % 2 else item for item in lst ]
+# words = input("enter words comma separated and sorted them alphabetcally")
+# word = ""
+
+# for word in words:  
+#    word = words.split(',').sort()
+# #    word.sort()
+# print(word)
+# words = input("Write a sequence of words separated by comas: ")
+# words_list = words.split(",")
+# words_list.sort()
 
 
+# print(f"The sorted order is: {words_list}")
+# items = input("Input comma separated sequence of words")
+# words = [word for word in items.split(",")]
+# print(",".join(sorted(len(words))))
