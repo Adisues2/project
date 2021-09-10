@@ -122,20 +122,35 @@ for rev_lyrics in  reversed(stairway):
 #     print(index)
 
 class Zoo:
+    animals = []
     def __init__(self,zoo_name):
+       
         self.zoo_name = zoo_name
-        self.animals = []
+        
     def add_animal(self,new_animal):
-        self.new_animal =new_animal
-        # self.new_animal.append("add_animal")
+        self.new_animal = new_animal
+        Zoo.animals.append(new_animal)
         print(f"animas in zoo {self.zoo_name} and {self.new_animal}")
+       
         
     def get_animal(self):
         print(f"animals of zoo {self.zoo_name}")
+    def sort_animal(self) ->list:
+      
+        return sorted(self.animals)
+        # for i in animals:
+        #     print(i)
     #   more questions left ....?
-animal_num = Zoo("girrafe")
-animal_num.get_animal()
-animal_num.add_animal("fox")
+    
+animal_num = Zoo("cat")
+anima2_num = Zoo("Bear")
+anima2_num.add_animal("cougar")
+anima2_num.add_animal("Emu")
+anima2_num.add_animal("bear")
+anima2_num.get_animal()
+anima2_num.sort_animal()
+print(anima2_num.sort_animal())
+print(animal_num.sort_animal())
 class Circle:
     def __init__(self,radius :int= 1):
         self.radius = radius
@@ -146,20 +161,37 @@ class Circle:
 Circle1 =Circle(1)
 print(Circle1.area())
 print(Circle1.perimeter())
-# class My_list:
-#     def __init__(self,letter):
-#         self.letter =letter
-#         self.lst_letters = []
-#     def reversed_lst(self):
-#         self.lst_letters.append("reversewd_lst")
-#         print("{self.letter}")
-#     def sorted_lst(self):
-#          lst_letters = []
-# for letter_s in My_list:
-#      print(letter_s[::-1]) 
-# for letter_s in range (My_list):
-#     print(sorted(letter_s))
-# my_list = My_list("A","B","C","D")  
-# print(my_list.reversed_lst())
-# my_list.sorted_lst()  
 
+
+
+
+class Phone:
+    def __init__(self,phone_number,message):
+        self.phone_number = phone_number
+        self.message = []
+        self.call_history = []
+    def call (self,other_phone):
+        self.other_phone = other_phone
+        print(f"who called who {self.other_phone}")     
+    def show_call_history(self):
+        return self.call_history
+    def send_message(self):
+         return self.message
+    def  show_outgoing_messages(self):
+          return self.call
+phone1 =Phone("111","2345")
+print()
+
+# clas mydic :
+#     def init()sekf,key,list.value:list)":
+#     self.mydic = {}"
+    
+#     for i in range(len(mydci)):
+    # self.mydic[keys[i]] =values[i]
+
+#         temp = mydic{['key1','key']}
+        
+#         if(len(value) ==0):
+#              for i in range(len(mydci)):
+#                  self.mydic[keys[i]]=>None\
+    # temp1 ={[key1,key2]]}
