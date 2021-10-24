@@ -1,0 +1,4 @@
+name =  "adisu"
+name_1 = "patrik"
+def full_name():
+     print( f" name {name} + {name_1}")

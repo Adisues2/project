@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% import wtf %}
+{% block content %}
+<div class="page">
+<form action= " " method="post">
+        {{form.hidden_tag()}}
+        {{wtf.form_field(form.firstname)}}
+         {{wtf.form_field(form.lastname)}}
+         {{wtf.form_field(form.age)}}
+         {{wtf.form_field(form.experiences)}}
+         {{form.submit}}
+</form>
+</div>
+{% endblock %}

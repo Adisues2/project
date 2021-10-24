@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  {% block style%}
+  <link rel="stylesheet" href="{{url_for('static', filename = 'style.css' )}}">
+
+  {% endblock %}
+  <body>
+<!--      {% with messages = get_flashed_messages() %}-->
+<!--    {% if messages %}-->
+<!--        {% for message in messages %}-->
+<!--      <h3>{{ message }}</h3>-->
+<!--        {% endfor %}-->
+<!--    {% endif %}-->
+<!--   {% endwith %}-->
+  {% for category, message in get_flashed_messages(with_categories=True) %}
+  <div class="alert-{{category}}">Error: {{ message }}</div>
+{% endfor %}
+  </body>
+</html>

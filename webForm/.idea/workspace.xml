@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4a01f4d-f2b2-4aeb-8b3b-822dad0ffdd2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../pythonproject/Website/app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/Website/app/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/Website/app/templates/index..html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/app/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/blogs/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/.idea/pythonweek_11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/json_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/templates/detailspage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/templates/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonproject/pythonweek_11/templates/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOM/dom/dailychallenge/week_5day2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOM/dom/dailychallenge/week_5day2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOM/dom/page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOM/dom/week5day3/week_5day3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOM/dom/week5day3/week_5day3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript2021/week_3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript2021/week_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javascript2021/week_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonproject/PYTHONWEEK_  9/week_9daillychallenge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonproject/PYTHONWEEK_  9/week_9day1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonproject/PYTHONWEEK_10/week_1odailychallenge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonproject/PYTHONWEEK_8/dogs.file" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonproject/newpythonProject/dic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonproject/newpythonProject/ex1_day1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonproject/newpythonProject/fun_ex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sandbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week_4/script_1.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1zVSuEw3BiwPbllGZ3Fl0bx04qM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4a01f4d-f2b2-4aeb-8b3b-822dad0ffdd2" name="Changes" comment="" />
+      <created>1634231982990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634231982990</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
