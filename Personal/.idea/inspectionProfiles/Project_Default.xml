@@ -1,0 +1,85 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="python_bcrypt" />
+            <item index="1" class="java.lang.String" itemvalue="bcrypt" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E271" />
+          <option value="E201" />
+          <option value="E128" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="app.app.flask_bootstrap" />
+          <option value="app.app.flask_wtf" />
+          <option value="webForm.app.form.flask_wtf" />
+          <option value="demoRelationship.app.models.app" />
+          <option value="app.db.Column" />
+          <option value="app.db.Integer" />
+          <option value="app.db.ForeignKey" />
+          <option value="database_manager" />
+          <option value="app.forms" />
+          <option value="app1.app1" />
+          <option value="app.models" />
+          <option value="app.films.AddFilmForm" />
+          <option value="wtforms.FlaskForm" />
+          <option value="Films.AddFilmForm" />
+          <option value="Films.Country" />
+          <option value="Films.AddDirectorForm" />
+          <option value="Films.Film" />
+          <option value="app.products.db" />
+          <option value="app.products.route.flask" />
+          <option value="app.products.route.forms" />
+          <option value="app.products.route.form" />
+          <option value="app.products.route.Remember_password" />
+          <option value="app.products.form.validationError" />
+          <option value="app.products.form.validatorsError" />
+          <option value="app.products.route.Product" />
+          <option value="app.products.route.photo" />
+          <option value="app.route.first_name" />
+          <option value="app.route.username" />
+          <option value="app.forms.RegisterForm.email" />
+          <option value="app.forms.RegisterForm.Country" />
+          <option value="app.route.email" />
+          <option value="app.route.password" />
+          <option value="app.forms.validationError" />
+          <option value="app.route.validate" />
+          <option value="app.route.db_session" />
+          <option value="app.route.secrets" />
+          <option value="app.route.photos" />
+          <option value="app.forms.ProductForm.description" />
+          <option value="os.path.direname" />
+          <option value="app.Config" />
+          <option value="os.path.splittext" />
+          <option value="app.route.render_tempate" />
+          <option value="app.route.folder" />
+          <option value="app.route.i" />
+          <option value="app.route.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
